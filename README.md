@@ -1,40 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ma stack technique
 
-## Getting Started
+Cette documentation consiste à lister tout les outils que je maitrise / déjà utiliser lors de projet fronted
 
-First, run the development server:
+## Framework
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- React / Next.js
+
+## Linting et Formattage
+
+- Prettier (config disponible dans le projet)
+- ESLint (Config relative dans le projet, sans plugin react/vue)
+- Husky & Lint-staged pour vérifier les commits
+
+## Styles
+
+- Dans un écosystème react, utilisation de Styled Components
+- Sass par défaut pour tout les projets
+
+⚠️ Attention à injecter seulement des variables css native dans le projets. Les variables scss servent à modifier ces dernières seulement
+
+## Typescript
+
+L'utilisation de TS est recommandé, afin de typer ses interfaces et DTO.
+
+## Commits
+
+Beaucoup d'entreprise ne font pas ou peu attention aux commits conventionnels. Il est toujours appréciable d'avoir un historique de projet clean et un workflow agréable à lire.
+J'utilise GitMoji, une extension qui me permet de lire l'historique de git sous forme de graphique.
+Notre convention de commit prendra pour référence Conventionnal Commit 1.0.0 avec une légère touche amusante 🤩
+
+### Structure
+
+La structure des messages de commit doit respecter la forme suivante, doivent être en lowercase et en anglais :
+
+```
+<gitmoji> <type> <description> [(#<issue number>)]
+
+[optional body]
+
+[optional footer(s)]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Exemple :
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+📝 update documentation contributors
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Add @imjustlucas as a contributor
+- Add @JohnDoe as a contributor
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Co-authored-by: Laurent <laurent@email.team>
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Mais le plus souvent, pour éviter les pertes de temps, les commits ressemblent a ça :
 
-## Learn More
+```
+📝 update documentation contributors
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Tests
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Packages utiles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Dayjs pour la gestion des dates
+- Remixicon ou Fontawesome pour les icones
+- Axios pour les requêtes HTTP
