@@ -19,12 +19,11 @@
       "@contexts/*": ["./src/contexts/*"],
       "@data/*": ["./src/data/*"],
       "@hooks/*": ["./src/hooks/*"],
+      "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./src/pages/*"],
-      "@screens/*": ["./src/screens/*"],
       "@stores/*": ["./src/stores/*"],
       "@styles/*": ["./src/styles/*"],
       "@static/*": ["./public/*"],
-      "@layouts/*": ["./src/layouts/*"],
       "@typesDef/*": ["./src/types/*"]
     }
   },
