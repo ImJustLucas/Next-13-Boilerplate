@@ -63,5 +63,5 @@ Mais le plus souvent, pour éviter les pertes de temps, les commits ressemblent 
 ## Packages utiles
 
 - Dayjs pour la gestion des dates
-- Remixicon ou Fontawesome pour les icones
+- Fontawesome pour les icones
 - Axios pour les requêtes HTTP
