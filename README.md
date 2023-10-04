@@ -21,47 +21,13 @@ Cette documentation consiste à lister tout les outils que je maitrise / déjà 
 
 ## Typescript
 
-L'utilisation de TS est recommandé, afin de typer ses interfaces et DTO.
-
-## Commits
-
-Beaucoup d'entreprise ne font pas ou peu attention aux commits conventionnels. Il est toujours appréciable d'avoir un historique de projet clean et un workflow agréable à lire.
-J'utilise GitMoji, une extension qui me permet de lire l'historique de git sous forme de graphique.
-Notre convention de commit prendra pour référence Conventionnal Commit 1.0.0 avec une légère touche amusante 🤩
-
-### Structure
-
-La structure des messages de commit doit respecter la forme suivante, doivent être en lowercase et en anglais :
-
-```
-<gitmoji> <type> <description> [(#<issue number>)]
-
-[optional body]
-
-[optional footer(s)]
-```
-
-Exemple :
-
-```
-📝 update documentation contributors
-
-- Add @imjustlucas as a contributor
-- Add @JohnDoe as a contributor
-
-Co-authored-by: Laurent <laurent@email.team>
-```
-
-Mais le plus souvent, pour éviter les pertes de temps, les commits ressemblent a ça :
-
-```
-📝 update documentation contributors
-```
+L'utilisation de TS est recommandé, afin de typer ses interfaces et DTO. Cela permet de gagner en lisibilité et en maintenabilité.
 
 ## Tests
 
 ## Packages utiles
 
-- Dayjs pour la gestion des dates
-- Remixicon pour les icones
-- Axios pour les requêtes HTTP
+- [Dayjs](https://day.js.org/) pour la gestion des dates
+- [Remixicon](https://remixicon.com/) pour les icones
+- [Axios](https://axios-http.com/fr/docs/intro) pour les requêtes HTTP
+- [Sonner](https://sonner.emilkowal.ski/) pour les toasts notifications
