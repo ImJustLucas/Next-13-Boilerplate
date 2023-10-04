@@ -9,7 +9,6 @@ import styled from "styled-components";
 export const HomeScreen: React.FC = () => {
   const theme = useContext(GlobalThemeContext);
 
-  console.log(theme);
   return (
     <>
       <HeaderContainer>
