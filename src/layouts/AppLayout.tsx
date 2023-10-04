@@ -16,18 +16,18 @@ const AppLayoutContainer = styled.div`
   align-items: center;
   justify-content: center;
   background: ${({ theme }) => theme.colors.background.primary};
-  background-size: 200% 200%;
+  background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 
   @keyframes gradient {
     0% {
-      background-position: 0% 50%;
+      background-position: 100% 100%;
     }
     50% {
-      background-position: 100% 50%;
+      background-position: 0% 0%;
     }
     100% {
-      background-position: 0% 50%;
+      background-position: 100% 100%;
     }
   }
 `;
