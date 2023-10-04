@@ -3,6 +3,7 @@ import { createColor } from "@utils/createColor";
 
 const light: Theme = {
   id: 0,
+  name: "light",
   colors: {
     primary: "#00b4d8",
     secondary: "#90e0ef",
@@ -16,7 +17,7 @@ const light: Theme = {
     text: {
       primary: "#2b2d42",
       secondary: createColor(141, 149, 157),
-      contrast: createColor(255, 255, 255),
+      contrast: "#2b2d42",
     },
     button: {
       background: "",

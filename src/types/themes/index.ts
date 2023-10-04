@@ -7,6 +7,7 @@ type ButtonTheme = {
 
 export type Theme = {
   id: number;
+  name: string;
   colors: {
     primary: string;
     secondary: string;

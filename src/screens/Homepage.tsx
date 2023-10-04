@@ -1,11 +1,28 @@
+import { useContext } from "react";
 import { SocialBar } from "@components/Footer/SocialBar";
+import { ThemeToggleButton } from "@components/ThemeToggle";
+import { GlobalThemeContext } from "@contexts/GlobalTheme";
+import themes from "@themes/index";
 import Link from "next/link";
 import styled from "styled-components";
 
 export const HomeScreen: React.FC = () => {
+  const theme = useContext(GlobalThemeContext);
+
+  console.log(theme);
   return (
     <>
-      <HeaderContainer>✨ ImJustLucas present ... ✨</HeaderContainer>
+      <HeaderContainer>
+        <p>✨ ImJustLucas present ✨</p>
+        <ThemeToggleButton
+          isDark={theme.globalTheme.name === "dark"}
+          onChange={() =>
+            theme.setGlobalTheme(
+              theme.globalTheme.name === "dark" ? themes.light : themes.dark,
+            )
+          }
+        />
+      </HeaderContainer>
       <HomeContainer>
         <Title>Just a boilerplate</Title>
         <Subtitle>
@@ -21,22 +38,38 @@ export const HomeScreen: React.FC = () => {
       </HomeContainer>
       <FooterContainer>
         <SocialBar />
+        <span>•</span>
+        <span>Made with 💜 by ImJustLucas</span>
       </FooterContainer>
     </>
   );
 };
 
 const HeaderContainer = styled.header`
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
   padding: 32px 0;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
+  color: ${({ theme }) => theme.colors.text.contrast};
 `;
 
 const FooterContainer = styled.footer`
   width: 100%;
   padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: ${({ theme }) => theme.colors.text.contrast};
+
+  svg path {
+    fill: ${({ theme }) => theme.colors.text.contrast};
+  }
 `;
 
 const HomeContainer = styled.div`
@@ -74,6 +107,7 @@ const Subtitle = styled.p`
   text-align: center;
   z-index: 2;
   position: relative;
+  color: ${({ theme }) => theme.colors.text.contrast};
 
   &::after {
     content: "🥳";
@@ -98,7 +132,7 @@ const Subtitle = styled.p`
 const StyledLink = styled(Link)`
   font-size: ${({ theme }) => theme.size.medium};
   text-align: center;
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.text.contrast};
   font-weight: 700;
   position: relative;
   transition: all 0.2s ease-in-out;

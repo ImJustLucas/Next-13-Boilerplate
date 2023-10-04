@@ -25,6 +25,7 @@
       "@screens/*": ["./src/screens/*"],
       "@stores/*": ["./src/stores/*"],
       "@styles/*": ["./src/styles/*"],
+      "@themes/*": ["./src/themes/*"],
       "@static/*": ["./public/*"],
       "@typesDef/*": ["./src/types/*"],
       "@utils/*": ["./src/utils/*"]

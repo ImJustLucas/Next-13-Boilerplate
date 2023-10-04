@@ -18,4 +18,5 @@ const AppLayoutContainer = styled.div`
   background: ${({ theme }) => theme.colors.background.primary};
   background-size: 400% 400%;
   animation: main-background 10s ease infinite;
+  transition: background 0.5s ease-in-out;
 `;

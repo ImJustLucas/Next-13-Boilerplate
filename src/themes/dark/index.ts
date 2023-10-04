@@ -3,19 +3,20 @@ import { createColor } from "@utils/createColor";
 
 const dark: Theme = {
   id: 0,
+  name: "dark",
   colors: {
-    primary: createColor(245, 6, 123),
-    secondary: createColor(123, 107, 221),
+    primary: "#90e0ef",
+    secondary: "#caf0f8",
 
     background: {
-      primary: createColor(30, 31, 32),
+      primary: "linear-gradient(123deg, #2B2D42 0%, #023E8A 50%, #2B2D42 100%)",
       secondary: createColor(30, 31, 32, 0.2),
       contrast: "",
     },
     text: {
-      primary: createColor(255, 255, 255),
-      secondary: createColor(150, 150, 150),
-      contrast: createColor(0, 0, 0),
+      primary: "#2b2d42",
+      secondary: createColor(141, 149, 157),
+      contrast: "#FFFFFF",
     },
     button: {
       background: "",

@@ -1,8 +1,8 @@
 import React from "react";
+import useThemeDetector from "@hooks/useThemeDetector";
+import themes from "@themes/index";
 import { Theme } from "@typesDef/themes";
 import { ThemeProvider } from "styled-components";
-
-import themes from "../themes";
 
 const GlobalThemeContext = React.createContext({
   globalTheme: themes.light,
@@ -12,7 +12,12 @@ const GlobalThemeContext = React.createContext({
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const GlobalThemeProvider = (props: any) => {
+  const isDarkTheme = useThemeDetector();
   const [globalTheme, setGlobalTheme] = React.useState(themes.light);
+
+  React.useEffect(() => {
+    setGlobalTheme(isDarkTheme ? themes.dark : themes.light);
+  }, [isDarkTheme]);
 
   return (
     <GlobalThemeContext.Provider
