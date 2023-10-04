@@ -26,15 +26,13 @@
     ]
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "axios": "^1.5.1",
     "babel-plugin-styled-components": "^2.1.4",
     "dayjs": "^1.11.10",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
+    "remixicon": "^3.5.0",
     "styled-components": "^6.0.8",
     "typescript-plugin-styled-components": "^3.0.0"
   },
