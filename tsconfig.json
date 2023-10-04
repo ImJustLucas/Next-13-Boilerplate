@@ -21,10 +21,12 @@
       "@hooks/*": ["./src/hooks/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./src/pages/*"],
+      "@services/*": ["./src/services/*"],
       "@stores/*": ["./src/stores/*"],
       "@styles/*": ["./src/styles/*"],
       "@static/*": ["./public/*"],
-      "@typesDef/*": ["./src/types/*"]
+      "@typesDef/*": ["./src/types/*"],
+      "@utils/*": ["./src/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
