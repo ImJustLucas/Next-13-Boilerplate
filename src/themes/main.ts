@@ -20,7 +20,7 @@ const main: MainTheme = {
     tiny: "12px",
 
     desktop: {
-      extraTitle: "60px",
+      extraTitle: "64px",
       title: "48px",
       large: "40px",
       medium: "35px",

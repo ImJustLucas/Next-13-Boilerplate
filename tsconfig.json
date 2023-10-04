@@ -22,6 +22,7 @@
       "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./src/pages/*"],
       "@services/*": ["./src/services/*"],
+      "@screens/*": ["./src/screens/*"],
       "@stores/*": ["./src/stores/*"],
       "@styles/*": ["./src/styles/*"],
       "@static/*": ["./public/*"],

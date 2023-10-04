@@ -14,20 +14,8 @@ const AppLayoutContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: ${({ theme }) => theme.colors.background.primary};
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-
-  @keyframes gradient {
-    0% {
-      background-position: 100% 100%;
-    }
-    50% {
-      background-position: 0% 0%;
-    }
-    100% {
-      background-position: 100% 100%;
-    }
-  }
+  animation: main-background 10s ease infinite;
 `;
