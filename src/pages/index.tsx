@@ -67,12 +67,14 @@ const StyledLink = styled(Link)`
   color: ${({ theme }) => theme.colors.primary};
   font-weight: 700;
   position: relative;
+  transition: all 0.2s ease-in-out;
 
   &::before {
     content: "👉";
     position: absolute;
     font-size: 26px;
     left: -50px;
+    transition: all 0.2s ease-in-out;
   }
 
   &::after {
@@ -80,5 +82,16 @@ const StyledLink = styled(Link)`
     position: absolute;
     font-size: 26px;
     right: -50px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &:hover {
+    &::before {
+      left: -40px;
+    }
+
+    &::after {
+      right: -40px;
+    }
   }
 `;
