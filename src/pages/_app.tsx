@@ -1,12 +1,19 @@
 import "@styles/index.scss";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import React from "react";
+import GlobalStyle from "@components/GlobalStyle";
+import { GlobalThemeProvider } from "@contexts/GlobalTheme";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import { AppLayout } from "@layouts/AppLayout";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
+config.autoAddCss = false;
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <GlobalThemeProvider>
       <Head>
         <meta
           name="viewport"
@@ -14,7 +21,10 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <title>Next - Boilerplate</title>
       </Head>
-      <Component {...pageProps} />
-    </>
+      <AppLayout>
+        <GlobalStyle />
+        <Component {...pageProps} />
+      </AppLayout>
+    </GlobalThemeProvider>
   );
 }
