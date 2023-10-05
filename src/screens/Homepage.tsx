@@ -1,26 +1,14 @@
-import { useContext } from "react";
 import { SocialBar } from "@components/Footer/SocialBar";
 import { ThemeToggleButton } from "@components/ThemeToggle";
-import { GlobalThemeContext } from "@contexts/GlobalTheme";
-import themes from "@themes/index";
 import Link from "next/link";
 import styled from "styled-components";
 
 export const HomeScreen: React.FC = () => {
-  const theme = useContext(GlobalThemeContext);
-
   return (
     <>
       <HeaderContainer>
         <p>✨ ImJustLucas present ✨</p>
-        <ThemeToggleButton
-          isDark={theme.globalTheme.name === "dark"}
-          onChange={() =>
-            theme.setGlobalTheme(
-              theme.globalTheme.name === "dark" ? themes.light : themes.dark,
-            )
-          }
-        />
+        <ThemeToggleButton />
       </HeaderContainer>
       <HomeContainer>
         <Title>Just a boilerplate</Title>
