@@ -1,33 +1,35 @@
-# Ma stack technique
+# Just a next boilerplate 💙
 
-Cette documentation consiste à lister tout les outils que je maitrise / déjà utiliser lors de projet fronted
+Magnificent Next.js boilerplate with TypeScript, ESLint, Prettier and everything else you need to bootstrap your Next.js project.
 
-## Framework
+## Requirements
 
-- React / Next.js
+Node.js 18+ and npm
 
-## Linting et Formattage
+## Getting Started
 
-- Prettier (config disponible dans le projet)
-- ESLint (Config relative dans le projet, sans plugin react/vue)
-- Husky & Lint-staged pour vérifier les commits
+To use this boilerplate, click on the green button "Use this template" at the top of this page.
 
-## Styles
+Then, click create repository from template.
 
-- Dans un écosystème react, utilisation de Styled Components
-- Sass par défaut pour tout les projets
+Finally, clone your new repository and run `npm install` to install the dependencies.
 
-⚠️ Attention à injecter seulement des variables css native dans le projets. Les variables scss servent à modifier ces dernières seulement
+## Features
 
-## Typescript
+- ⚡ Next.js
+- 🎨 Styled Components
+- 📏 ESLint
+- 💖 Prettier
+- 🐶 Husky
+- 🚫 Lint-staged
+- 🗂 Absolute import
+- 📄 TypeScript
+- 📊 Jest
+- ⏲ Dayjs
+- 📦 RedAxios
+- 📝 Sonner
+- ✨ Remixicon
 
-L'utilisation de TS est recommandé, afin de typer ses interfaces et DTO. Cela permet de gagner en lisibilité et en maintenabilité.
+## Support
 
-## Tests
-
-## Packages utiles
-
-- [Dayjs](https://day.js.org/) pour la gestion des dates
-- [Remixicon](https://remixicon.com/) pour les icones
-- [Axios](https://axios-http.com/fr/docs/intro) pour les requêtes HTTP
-- [Sonner](https://sonner.emilkowal.ski/) pour les toasts notifications
+If you like this boilerplate, give it a ⭐️ and share it with your friends!
