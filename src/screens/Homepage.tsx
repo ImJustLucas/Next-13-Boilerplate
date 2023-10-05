@@ -38,7 +38,7 @@ export const HomeScreen: React.FC = () => {
       <FooterContainer>
         <SocialBar />
         <span>•</span>
-        <span>Made with 💜 by ImJustLucas</span>
+        <span>Made with 💙 by ImJustLucas</span>
       </FooterContainer>
     </>
   );
