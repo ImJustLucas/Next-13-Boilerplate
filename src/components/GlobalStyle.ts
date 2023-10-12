@@ -202,7 +202,13 @@ export default createGlobalStyle`
 
         :hover {
             filter: brightness(0.8);
+       
         }
+    }
+
+    p {
+        transition: all 0.2s;
+        color: ${({ theme }) => theme.colors.text.contrast};
     }
 
     /* animations */
