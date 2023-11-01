@@ -16,7 +16,7 @@ const dark: Theme = {
     text: {
       primary: "#2b2d42",
       secondary: createColor(141, 149, 157),
-      contrast: "#FFFFFF",
+      contrast: "#f8f9fa",
     },
     button: {
       background: "",

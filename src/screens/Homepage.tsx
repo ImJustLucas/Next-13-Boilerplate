@@ -122,7 +122,7 @@ const StyledLink = styled(Link)`
   color: ${({ theme }) => theme.colors.text.contrast};
   font-weight: 700;
   position: relative;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &::before {
     content: "👉";
