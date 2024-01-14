@@ -17,7 +17,6 @@ Finally, clone your new repository and run `npm install` to install the dependen
 ## Features
 
 - ⚡ [Next.js](https://nextjs.org/)
-- 📚 [Supabase](https://supabase.com/)
 - 🎨 [Styled Components](https://styled-components.com/)
 - 📏 [ESLint](https://eslint.org/)
 - 💖 [Prettier](https://prettier.io/)
