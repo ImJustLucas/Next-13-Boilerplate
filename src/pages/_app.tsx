@@ -1,9 +1,9 @@
 import "remixicon/fonts/remixicon.css";
 
 import React from "react";
-import GlobalStyle from "@components/GlobalStyle";
 import { GlobalThemeProvider } from "@contexts/GlobalTheme";
 import { AppLayout } from "@layouts/AppLayout";
+import GlobalStyle from "@styles/GlobalStyle";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
