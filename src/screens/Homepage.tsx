@@ -17,7 +17,7 @@ export const HomeScreen: React.FC = () => {
           everything else you need to bootstrap your Next.js project.
         </Subtitle>
         <StyledLink
-          href="https://github.com/ImJustLucas/Next-Boilerplate"
+          href="https://github.com/ImJustLucas/Next-13-Boilerplate"
           target="_blank"
         >
           I want to use it!
