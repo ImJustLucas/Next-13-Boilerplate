@@ -1,7 +1,9 @@
 import React, { useContext, useEffect } from "react";
+
+import { ToggleContainer } from "@styles/components/ThemeToggle.styled";
+
 import { GlobalThemeContext } from "@contexts/GlobalTheme";
 import useThemeDetector from "@hooks/useThemeDetector";
-import { ToggleContainer } from "@styles/components/ThemeToggle.styled";
 
 export const ThemeToggleButton: React.FC = () => {
   const theme = useContext(GlobalThemeContext);

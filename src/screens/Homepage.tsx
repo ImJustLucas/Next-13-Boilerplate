@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 import { SocialBar } from "@components/Footer/SocialBar";
 import { ThemeToggleButton } from "@components/ThemeToggle";
-import Link from "next/link";
+
 import styled from "styled-components";
 
 export const HomeScreen: React.FC = () => {

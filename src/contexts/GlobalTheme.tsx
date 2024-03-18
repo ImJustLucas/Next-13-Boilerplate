@@ -1,7 +1,10 @@
 import React from "react";
-import useThemeDetector from "@hooks/useThemeDetector";
+
 import themes from "@themes/index";
+
+import useThemeDetector from "@hooks/useThemeDetector";
 import { Theme } from "@typesDef/themes";
+
 import { ThemeProvider } from "styled-components";
 
 const GlobalThemeContext = React.createContext({

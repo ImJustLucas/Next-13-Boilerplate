@@ -30,15 +30,34 @@
           ["^.+\\.?(css)$"],
 
           /* React imports */
-          ["^react", "^@?\\w"],
+          ["^react", "^@react"],
 
-          /* Side effect imports */
-          ["^(\\u0000|@?\\w)(/.*|$)"],
+          /* Next imports */
+          ["^next"],
 
-          /* Parent imports. Put `..` last */
+          /* Imports starting with @ */
+          ["^@"],
+
+          /* Custom imports */
+          [
+            "^@components",
+            "^@constants",
+            "^@contexts",
+            "^@hooks",
+            "^@misc",
+            "^@pages",
+            "^@plugins",
+            "^@public",
+            "^@services",
+            "^@stores",
+            "^@typesDef",
+            "^@utils"
+          ],
+
+          /* Parent imports. Put .. last */
           ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
 
-          /* Other relative imports. Put same-folder imports and `.` last */
+          /* Other relative imports. Put same-folder imports and . last */
           ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"]
         ]
       }
