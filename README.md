@@ -32,8 +32,3 @@ Finally, clone your new repository and run `npm install` to install the dependen
 ## Support
 
 If you like this boilerplate, give it a ⭐️ and share it with your friends!
-
-TODO
-
-- homogéniser les les transitions
-- deplacer global styles dans dossier styles
