@@ -22,6 +22,17 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort"],
   "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "warn",
     "simple-import-sort/imports": [
       "error",
       {
@@ -73,7 +84,11 @@
     "quotes": ["error", "double"],
     "no-console": 0,
     "no-control-regex": 0,
-    "prettier/prettier": ["error", { "endOfLine": "auto" }]
+
+    "prettier/prettier": [
+      "error",
+      { "endOfLine": "auto", "trailingComma": "all" }
+    ]
   },
   "overrides": [
     // Only uses Testing Library lint rules in test files
