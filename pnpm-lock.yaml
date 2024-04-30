@@ -95,7 +95,7 @@ devDependencies:
     specifier: ^29.7.0
     version: 29.7.0
   jest-styled-components:
-    specifier: ^7.1.1
+    specifier: ^7.2.0
     version: 7.2.0(styled-components@6.1.0)
   prettier:
     specifier: ^3.2.5
