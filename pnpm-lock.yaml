@@ -16,22 +16,22 @@ dependencies:
     version: 1.11.10
   next:
     specifier: 13.5.6
-    version: 13.5.6(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.3.1)
+    version: 13.5.6(@babel/core@7.23.2)(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: ^18
     version: 18.3.1
   react-dom:
     specifier: ^18
-    version: 18.2.0(react@18.3.1)
+    version: 18.3.1(react@18.3.1)
   remixicon:
     specifier: ^4.2.0
     version: 4.2.0
   sonner:
     specifier: ^1.4.41
-    version: 1.4.41(react-dom@18.2.0)(react@18.3.1)
+    version: 1.4.41(react-dom@18.3.1)(react@18.3.1)
   styled-components:
     specifier: ^6.1.9
-    version: 6.1.9(react-dom@18.2.0)(react@18.3.1)
+    version: 6.1.9(react-dom@18.3.1)(react@18.3.1)
   typescript-plugin-styled-components:
     specifier: ^3.0.0
     version: 3.0.0(typescript@5.4.5)
@@ -42,7 +42,7 @@ devDependencies:
     version: 6.4.5(@types/jest@29.5.12)(jest@29.7.0)
   '@testing-library/react':
     specifier: ^14.2.2
-    version: 14.2.2(react-dom@18.2.0)(react@18.3.1)
+    version: 14.2.2(react-dom@18.3.1)(react@18.3.1)
   '@types/axios':
     specifier: ^0.14.0
     version: 0.14.0
@@ -57,7 +57,7 @@ devDependencies:
     version: 18.3.2
   '@types/react-dom':
     specifier: ^18
-    version: 18.2.25
+    version: 18.3.0
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.0.0
     version: 7.0.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5)
@@ -978,7 +978,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react@14.2.2(react-dom@18.2.0)(react@18.3.1):
+  /@testing-library/react@14.2.2(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-SOUuM2ysCvjUWBXTNfQ/ztmnKDmqaiPV3SvoIuyxMUca45rbSWWAT/qB8CUs/JQ/ux/8JFs9DNdFQ3f6jH3crA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -987,9 +987,9 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.2
       '@testing-library/dom': 9.3.3
-      '@types/react-dom': 18.2.25
+      '@types/react-dom': 18.3.0
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -1094,8 +1094,8 @@ packages:
     resolution: {integrity: sha512-n1yyPsugYNSmHgxDFjicaI2+gCNjsBck8UX9kuofAKlc0h1bL+20oSF72KeNaW2DUlesbEVCFgyV2dPGTiY42g==}
     dev: true
 
-  /@types/react-dom@18.2.25:
-    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
+  /@types/react-dom@18.3.0:
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
       '@types/react': 18.3.2
     dev: true
@@ -1676,7 +1676,7 @@ packages:
       '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.23.2)
       lodash: 4.17.21
       picomatch: 2.3.1
-      styled-components: 6.1.9(react-dom@18.2.0)(react@18.3.1)
+      styled-components: 6.1.9(react-dom@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@babel/core'
     dev: false
@@ -3789,7 +3789,7 @@ packages:
       styled-components: '>= 5'
     dependencies:
       '@adobe/css-tools': 4.3.1
-      styled-components: 6.1.9(react-dom@18.2.0)(react@18.3.1)
+      styled-components: 6.1.9(react-dom@18.3.1)(react@18.3.1)
     dev: true
 
   /jest-util@29.7.0:
@@ -4145,7 +4145,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next@13.5.6(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.3.1):
+  /next@13.5.6(@babel/core@7.23.2)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-Y2wTcTbO4WwEsVb4A8VSnOsG1I9ok+h74q0ZdxkwM3EODqrs4pasq7O0iUxbcS9VtWMicG7f3+HAj0r1+NtKSw==}
     engines: {node: '>=16.14.0'}
     hasBin: true
@@ -4166,7 +4166,7 @@ packages:
       caniuse-lite: 1.0.30001559
       postcss: 8.4.31
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
       styled-jsx: 5.1.1(@babel/core@7.23.2)(react@18.3.1)
       watchpack: 2.4.0
     optionalDependencies:
@@ -4506,14 +4506,14 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /react-dom@18.2.0(react@18.3.1):
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom@18.3.1(react@18.3.1):
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.1
     dependencies:
       loose-envify: 1.4.0
       react: 18.3.1
-      scheduler: 0.23.0
+      scheduler: 0.23.2
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -4681,8 +4681,8 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
-  /scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  /scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
     dependencies:
       loose-envify: 1.4.0
 
@@ -4760,14 +4760,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /sonner@1.4.41(react-dom@18.2.0)(react@18.3.1):
+  /sonner@1.4.41(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-uG511ggnnsw6gcn/X+YKkWPo5ep9il9wYi3QJxHsYe7yTZ4+cOd1wuodOUmOpFuXL+/RE3R04LczdNCDygTDgQ==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
     dev: false
 
   /source-map-js@1.0.2:
@@ -4917,7 +4917,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components@6.1.9(react-dom@18.2.0)(react@18.3.1):
+  /styled-components@6.1.9(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-aBOqs0uMsYufFXSE4q6cA6Ty1fwZuMk4BJRHfiGSna59F1otnxiDelwhN4fEwmBtIymmF0ZqXHnpSigr2ps9Cg==}
     engines: {node: '>= 16'}
     peerDependencies:
@@ -4931,7 +4931,7 @@ packages:
       csstype: 3.1.2
       postcss: 8.4.31
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
       shallowequal: 1.1.0
       stylis: 4.3.1
       tslib: 2.5.0
