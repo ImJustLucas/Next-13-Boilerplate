@@ -34,7 +34,7 @@
     "react-dom": "^18",
     "remixicon": "^4.2.0",
     "sonner": "^1.4.41",
-    "styled-components": "^6.1.9",
+    "styled-components": "^6.1.11",
     "typescript-plugin-styled-components": "^3.0.0"
   },
   "devDependencies": {
