@@ -35,7 +35,7 @@
     "remixicon": "^4.3.0",
     "sonner": "^1.5.0",
 
-    "styled-components": "^6.1.11",
+    "styled-components": "^6.1.12",
     "typescript-plugin-styled-components": "^3.0.0"
   },
   "devDependencies": {
