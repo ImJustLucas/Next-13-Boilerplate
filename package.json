@@ -39,7 +39,7 @@
     "typescript-plugin-styled-components": "^3.0.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.0",
     "@types/axios": "^0.14.0",
     "@types/jest": "^29.5.12",
