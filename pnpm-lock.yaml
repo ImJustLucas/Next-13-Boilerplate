@@ -27,8 +27,8 @@ importers:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
       remixicon:
-        specifier: ^4.3.0
-        version: 4.3.0
+        specifier: ^4.4.0
+        version: 4.4.0
       sonner:
         specifier: ^1.5.0
         version: 1.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2334,8 +2334,8 @@ packages:
     resolution: {integrity: sha512-NcDiDkTLuPR+++OCKB0nWafEmhg/Da8aUPLPMQbK+bxKKCm1/S5he+AqYa4PlMCVBalb4/yxIRub6qkEx5yJbw==}
     engines: {node: '>= 0.4'}
 
-  remixicon@4.3.0:
-    resolution: {integrity: sha512-jRYQ37dTFSkJtvcxwTUAkIiXkYRvA9EDvVuXPNrmt2xf/VS//CRgFtsX2TAFBoQOhh9SDh7l6La4Xu12snEyxg==}
+  remixicon@4.4.0:
+    resolution: {integrity: sha512-6n0S4Mx2I35/Cb3gd4vB330sPh9kHTUK3AI0gGPt/y3Tiyg7ld9zwXY1Ssa3YwDdMArlDqUiEK1V3KS59ZnZYw==}
 
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -5582,7 +5582,7 @@ snapshots:
       es-errors: 1.3.0
       set-function-name: 2.0.2
 
-  remixicon@4.3.0: {}
+  remixicon@4.4.0: {}
 
   require-directory@2.1.1: {}
 
