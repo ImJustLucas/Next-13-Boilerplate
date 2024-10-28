@@ -46,8 +46,8 @@ importers:
         specifier: ^16.0.1
         version: 16.0.1(@testing-library/dom@10.1.0)(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/axios':
-        specifier: ^0.14.0
-        version: 0.14.0
+        specifier: ^0.14.4
+        version: 0.14.4
       '@types/jest':
         specifier: ^29.5.14
         version: 29.5.14
@@ -558,9 +558,9 @@ packages:
   '@types/aria-query@5.0.3':
     resolution: {integrity: sha512-0Z6Tr7wjKJIk4OUEjVUQMtyunLDy339vcMaj38Kpj6jM2OE1p3S4kXExKZ7a3uXQAPCoy3sbrP1wibDKaf39oA==}
 
-  '@types/axios@0.14.0':
-    resolution: {integrity: sha512-KqQnQbdYE54D7oa/UmYVMZKq7CO4l8DEENzOKc4aBRwxCXSlJXGz83flFx5L7AWrOQnmuN3kVsRdt+GZPPjiVQ==}
-    deprecated: This is a stub types definition for axios (https://github.com/mzabriskie/axios). axios provides its own type definitions, so you don't need @types/axios installed!
+  '@types/axios@0.14.4':
+    resolution: {integrity: sha512-9JgOaunvQdsQ/qW2OPmE5+hCeUB52lQSolecrFrthct55QekhmXEwT203s20RL+UHtCQc15y3VXpby9E7Kkh/g==}
+    deprecated: This is a stub types definition. axios provides its own type definitions, so you do not need this installed.
 
   '@types/babel__core@7.20.3':
     resolution: {integrity: sha512-54fjTSeSHwfan8AyHWrKbfBWiEUrNTZsUwPTDSNaaP1QDQIZbeNUg3a59E9D+375MzUw/x1vx2/0F5LBz+AeYA==}
@@ -3362,7 +3362,7 @@ snapshots:
 
   '@types/aria-query@5.0.3': {}
 
-  '@types/axios@0.14.0':
+  '@types/axios@0.14.4':
     dependencies:
       axios: 1.7.7
     transitivePeerDependencies:
