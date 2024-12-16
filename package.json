@@ -29,7 +29,7 @@
     "axios": "^1.7.9",
     "babel-plugin-styled-components": "^2.1.4",
     "dayjs": "^1.11.13",
-    "next": "13.5.7",
+    "next": "15.1.0",
     "react": "^18",
     "react-dom": "^18",
     "remixicon": "^4.5.0",
