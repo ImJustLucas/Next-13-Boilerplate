@@ -33,7 +33,7 @@
     "react": "^18",
     "react-dom": "^18",
     "remixicon": "^4.6.0",
-    "sonner": "^1.7.1",
+    "sonner": "^1.7.2",
 
     "styled-components": "^6.1.14",
     "typescript-plugin-styled-components": "^3.0.0"
